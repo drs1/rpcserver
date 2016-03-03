@@ -1,0 +1,4 @@
+source: 
+	mkdir -p bin
+	fsc -d bin -classpath .:bin `find src -name "*.java"` `find src -name "*.scala"`
+#	javac -d bin -classpath .:bin:${SCALA_HOME}/lib/scala-library.jar `find src -name "*.java"` 
