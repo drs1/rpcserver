@@ -20,13 +20,11 @@ class Server{
     
   }
   
-  
   def main() = {
     try{
       val phm: PropertyHandlerMapping = new PropertyHandlerMapping();
       val server = new WebServer(8080);
       val rpcServer = server.getXmlRpcServer();
-      //
       
       
     }catch{
